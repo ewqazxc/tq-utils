@@ -434,6 +434,11 @@ bluebird@^3.5.5:
   resolved "http://10.0.25.101:4873/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha1-nyKcFb4nJFT/qXOs4NvueaGww28=
 
+blueimp-canvas-to-blob@^3.14.0:
+  version "3.27.0"
+  resolved "http://10.0.25.101:4873/blueimp-canvas-to-blob/-/blueimp-canvas-to-blob-3.27.0.tgz#a2bd5c43587b95dedf0f6998603452d1bfcc9b9e"
+  integrity sha1-or1cQ1h7ld7fD2mYYDRS0b/Mm54=
+
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.4.0:
   version "4.11.9"
   resolved "http://10.0.25.101:4873/bn.js/-/bn.js-4.11.9.tgz#26d556829458f9d1e81fc48952493d0ba3507828"
@@ -1584,6 +1589,14 @@ iferr@^0.1.5:
   resolved "http://10.0.25.101:4873/iferr/-/iferr-0.1.5.tgz#c60eed69e6d8fdb6b3104a1fcbca1c192dc5b501"
   integrity sha1-xg7taebY/bazEEofy8ocGS3FtQE=
 
+image-compressor.js@^1.1.4:
+  version "1.1.4"
+  resolved "http://10.0.25.101:4873/image-compressor.js/-/image-compressor.js-1.1.4.tgz#6e1683e3d9082b3e0d22c6483a4ffdda35005f3f"
+  integrity sha1-bhaD49kIKz4NIsZIOk/92jUAXz8=
+  dependencies:
+    blueimp-canvas-to-blob "^3.14.0"
+    is-blob "^1.0.0"
+
 import-local@2.0.0:
   version "2.0.0"
   resolved "http://10.0.25.101:4873/import-local/-/import-local-2.0.0.tgz#55070be38a5993cf18ef6db7e961f5bee5c5a09d"
@@ -1672,6 +1685,11 @@ is-binary-path@~2.1.0:
   integrity sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==
   dependencies:
     binary-extensions "^2.0.0"
+
+is-blob@^1.0.0:
+  version "1.0.0"
+  resolved "http://10.0.25.101:4873/is-blob/-/is-blob-1.0.0.tgz#a3d7d96fe1c3ff065ec7ce27c2c21e6ba92c1832"
+  integrity sha1-o9fZb+HD/wZex84nwsIea6ksGDI=
 
 is-buffer@^1.1.5:
   version "1.1.6"

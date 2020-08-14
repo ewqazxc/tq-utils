@@ -17,6 +17,9 @@ module.exports = {
     libraryTarget: 'umd',
     libraryExport: 'default'
   },
+  resolve: {
+    extensions: ['.js', '.ts', '.json']
+  },
   mode: 'production',
   module: {
     rules: [

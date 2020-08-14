@@ -5,7 +5,6 @@ export interface RenderUtils {
   renderDate: (text: moment.MomentInput, empty?: string) => string
   renderDateTime: (text: moment.MomentInput, empty?: string) => string;
 }
-
 export const renderTime = (text: moment.MomentInput, format = 'YYY-MM-DD', empty = '-') => {
   let time = text ? moment(text).format(format) : empty;
   if (time === 'Invalid date') {
@@ -20,4 +19,10 @@ export const renderDate = (text: moment.MomentInput, empty = '-') => {
 
 export const renderDateTime = (text: moment.MomentInput, empty = '-') => {
   return renderTime(text, 'YYYY-MM-DD HH:mm:ss', empty);
+};
+
+export default {
+  renderTime,
+  renderDate,
+  renderDateTime
 };
