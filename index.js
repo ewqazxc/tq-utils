@@ -1,5 +1,5 @@
 if (process.env.NODE_ENV === 'production') {
-  module.exports = require('./dist/tq-utils.min.js');
+  module.exports = require('./lib/tq-utils.min.js');
 } else {
-  module.exports = require('./dist/tq-utils.js');
+  module.exports = require('./lib/tq-utils.js');
 }
