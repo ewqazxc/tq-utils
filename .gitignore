@@ -3,6 +3,7 @@ node_modules
 http.http
 /.svn
 /dist
+/lib
 /package-lock.json
 
 # local env files

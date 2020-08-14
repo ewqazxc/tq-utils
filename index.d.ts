@@ -1,14 +1,14 @@
-import { RenderUtils } from './src/RenderUtils';
-import { ImageUtils } from './src/ImageUtils';
+// import * as _default from './src/index.d';
+// export default _default;
 
-export { default as ImageUtils } from './src/ImageUtils/index.d';
-export { default as RenderUtils } from './src/RenderUtils/index.d';
+// export { default as ImageUtils } from './src/ImageUtils/index.d';
+// export { default as RenderUtils } from './src/RenderUtils/index.d';
 
-declare namespace tqUtils {
-  const RenderUtils: RenderUtils;
-  const ImageUtils: ImageUtils;
-}
-export default tqUtils;
+// declare namespace tqUtils {
+//   const RenderUtils: RenderUtils;
+//   const ImageUtils: ImageUtils;
+// }
+// export default tqUtils;
 
 // No 1
 // export default tqUtils;

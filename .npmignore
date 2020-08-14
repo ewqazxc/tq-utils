@@ -15,3 +15,7 @@ config.gypi
 *.orig
 package-lock.json (use shrinkwrap instead)
 # custom
+/src
+/index.d.ts
+/tsconfig.json
+/webpack.config.js

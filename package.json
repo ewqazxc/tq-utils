@@ -1,8 +1,9 @@
 {
   "name": "tq-utils",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "build": "webpack",
     "build:tsc": "tsc && webpack",
