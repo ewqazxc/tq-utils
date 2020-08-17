@@ -1,10 +1,6 @@
 {
   "name": "tq-utils",
-<<<<<<< HEAD
-  "version": "1.0.3",
-=======
   "version": "1.0.8",
->>>>>>> 7c62f2c27c0e1ad2da5cc7df2a6d008bb9242719
   "description": "",
   "main": "index.js",
   "typings": "lib/index.d.ts",
